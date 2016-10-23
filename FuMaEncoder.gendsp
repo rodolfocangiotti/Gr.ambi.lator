@@ -1,0 +1,502 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 34.0, 78.0, 966.0, 719.0 ],
+		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 881.0, 690.0, 121.0, 22.0 ],
+					"style" : "",
+					"text" : "out 16 @comment Q"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 825.0, 660.0, 120.0, 22.0 ],
+					"style" : "",
+					"text" : "out 15 @comment P"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 769.533325, 630.0, 121.0, 22.0 ],
+					"style" : "",
+					"text" : "out 14 @comment O"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 713.799988, 600.0, 121.0, 22.0 ],
+					"style" : "",
+					"text" : "out 13 @comment N"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 658.06665, 690.0, 122.0, 22.0 ],
+					"style" : "",
+					"text" : "out 12 @comment M"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 602.333313, 660.0, 118.0, 22.0 ],
+					"style" : "",
+					"text" : "out 11 @comment L"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 546.599976, 630.0, 120.0, 22.0 ],
+					"style" : "",
+					"text" : "out 10 @comment K"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 490.866669, 600.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "out 9 @comment V"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.133331, 690.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "out 8 @comment U"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 379.399994, 660.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "out 7 @comment T"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 323.666656, 630.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "out 6 @comment S"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.933319, 600.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "out 5 @comment R"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 212.199997, 690.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "out 4 @comment Z"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 156.46666, 660.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "out 3 @comment Y"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 881.0, 30.0, 120.0, 22.0 ],
+					"style" : "",
+					"text" : "in 3 @comment Rho"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 100.73333, 630.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "out 2 @comment X"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 45.0, 30.0, 172.0, 22.0 ],
+					"style" : "",
+					"text" : "in 1 @comment Segnale Input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 463.0, 30.0, 129.0, 22.0 ],
+					"style" : "",
+					"text" : "in 2 @comment Theta"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// Richiamo i buffer istanziati nel main patcher.\r\nBuffer FCOSENO(\"FCOSENO\");\r\nBuffer FSENO(\"FSENO\");\r\n\r\n// Definisco una costante per la dimensione dell'array.\r\nParam LUNGHEZZATABELLA(4096);\r\n\r\n\r\n\r\nsegnaleIngresso = in1;\r\ntheta = in2;\r\nphi = in3;\r\n\r\n\r\n\r\n// Calcolo gli indici di lettura per i buffer nel main patcher.\r\n// ____________________TESTATO____________________\r\n\r\nindiceTheta = theta * 0.15915494309189533576888376337251 * LUNGHEZZATABELLA;\r\n// theta / 2PI * LUNGHEZZATABELLA\r\n\r\nindiceThetaIntero = int(indiceTheta);\r\nindiceThetaInteroDue = indiceThetaIntero + 1;\r\n\r\nif (indiceThetaInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindiceThetaInteroDue = indiceThetaInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindiceThetaInteroDue = indiceThetaInteroDue;\r\n}\r\n\r\nindiceThetaFrazionario = indiceTheta - indiceThetaIntero;\r\n\r\n\r\n\r\nindicePhi = phi * 0.15915494309189533576888376337251 * LUNGHEZZATABELLA;\r\n// phi / 2PI * LUNGHEZZATABELLA\r\n\r\nindicePhiIntero = int(indicePhi);\r\nindicePhiInteroDue = indicePhiIntero + 1;\r\n\r\nif (indicePhiInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindicePhiInteroDue = indicePhiInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindicePhiInteroDue = indicePhiInteroDue;\r\n}\r\n\r\nindicePhiFrazionario = indicePhi - indicePhiIntero;\n\n\n\r\n// ____________________TESTATO____________________\r\nindiceDueTheta = theta * 0.31830988618379067153776752674503 * LUNGHEZZATABELLA;\n// 2 * theta / 2PI * LUNGHEZZATABELLA\r\n\nindiceDueTheta = indiceDueTheta % LUNGHEZZATABELLA;\r\n\nindiceDueThetaIntero = int(indiceDueTheta);\r\nindiceDueThetaInteroDue = indiceDueThetaIntero + 1;\r\n\r\nif (indiceDueThetaInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindiceDueThetaInteroDue = indiceDueThetaInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindiceDueThetaInteroDue = indiceDueThetaInteroDue;\r\n}\r\n\r\nindiceDueThetaFrazionario = indiceDueTheta - indiceDueThetaIntero;\r\n\r\n\r\n\r\nindiceDuePhi = phi * 0.31830988618379067153776752674503 * LUNGHEZZATABELLA;\n// 2 * phi / 2PI * LUNGHEZZATABELLA\r\n\nindiceDuePhi = indiceDuePhi % LUNGHEZZATABELLA;\r\n\r\nindiceDuePhiIntero = int(indiceDuePhi);\r\nindiceDuePhiInteroDue = indiceDuePhiIntero + 1;\r\n\r\nif (indiceDuePhiInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindiceDuePhiInteroDue = indiceDuePhiInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindiceDuePhiInteroDue = indiceDuePhiInteroDue;\r\n}\r\n\r\nindiceDuePhiFrazionario = indiceDuePhi - indiceDuePhiIntero;\r\n\r\n\r\n\r\nindiceTreTheta = theta * 0.47746482927568600730665129011754 * LUNGHEZZATABELLA;\n// 3 * theta / 2PI * LUNGHEZZATABELLA\r\n\r\nindiceTreTheta = indiceTreTheta % LUNGHEZZATABELLA;\r\n\nindiceTreThetaIntero = int(indiceTreTheta);\r\nindiceTreThetaInteroDue = indiceTreThetaIntero + 1;\r\n\r\nif (indiceTreThetaInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindiceTreThetaInteroDue = indiceTreThetaInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindiceTreThetaInteroDue = indiceTreThetaInteroDue;\r\n}\r\n\r\nindiceTreThetaFrazionario = indiceTreTheta - indiceTreThetaIntero;\r\n\r\n\r\n\r\nindiceTrePhi = phi * 0.47746482927568600730665129011754 * LUNGHEZZATABELLA;\n// 3 * phi / 2PI * LUNGHEZZATABELLA\r\n\r\nindiceTrePhi = indiceTrePhi % LUNGHEZZATABELLA;\r\n\r\nindiceTrePhiIntero = int(indiceTrePhi);\r\nindiceTrePhiInteroDue = indiceTrePhiIntero + 1;\r\n\r\nif (indiceTrePhiInteroDue > LUNGHEZZATABELLA - 1) {\r\n\tindiceTrePhiInteroDue = indiceTrePhiInteroDue - LUNGHEZZATABELLA;\r\n} else {\r\n\tindiceTrePhiInteroDue = indiceTrePhiInteroDue;\r\n}\r\n\r\nindiceTrePhiFrazionario = indiceTrePhi - indiceTrePhiIntero;\r\n\r\n\r\n\r\n// Utilizzo gli indici sopra calcolati per leggere i buffer del main patcher, contenenti valori precalcolati delle funzioni coseno e seno.\r\n// Interpolo linearmente i valori letti.\r\ncosenoThetaUno = peek(FCOSENO, indiceThetaIntero, index=\"samples\");\r\ncosenoThetaDue = peek(FCOSENO, indiceThetaInteroDue, index=\"samples\");\r\ncosenoThetaInterpolato = cosenoThetaUno + (cosenoThetaDue - cosenoThetaUno) * indiceThetaFrazionario;\r\n\r\nsenoThetaUno = peek(FSENO, indiceThetaIntero, index=\"samples\");\r\nsenoThetaDue = peek(FSENO, indiceThetaInteroDue, index=\"samples\");\r\nsenoThetaInterpolato = senoThetaUno + (senoThetaDue - senoThetaUno) * indiceThetaFrazionario;\n\ncosenoPhiUno = peek(FCOSENO, indicePhiIntero, index=\"samples\");\r\ncosenoPhiDue = peek(FCOSENO, indicePhiInteroDue, index=\"samples\");\r\ncosenoPhiInterpolato = cosenoPhiUno + (cosenoPhiDue - cosenoPhiUno) * indicePhiFrazionario;\r\n\r\nsenoPhiUno = peek(FSENO, indicePhiIntero, index=\"samples\");\r\nsenoPhiDue = peek(FSENO, indicePhiInteroDue, index=\"samples\");\r\nsenoPhiInterpolato = senoPhiUno + (senoPhiDue - senoPhiUno) * indicePhiFrazionario;\r\n\r\n\r\n\r\ncosenoDueThetaUno = peek(FCOSENO, indiceDueThetaIntero, index=\"samples\");\r\ncosenoDueThetaDue = peek(FCOSENO, indiceDueThetaInteroDue, index=\"samples\");\r\ncosenoDueThetaInterpolato = cosenoDueThetaUno + (cosenoDueThetaDue - cosenoDueThetaUno) * indiceDueThetaFrazionario;\r\n\r\nsenoDueThetaUno = peek(FSENO, indiceDueThetaIntero, index=\"samples\");\r\nsenoDueThetaDue = peek(FSENO, indiceDueThetaInteroDue, index=\"samples\");\r\nsenoDueThetaInterpolato = senoDueThetaUno + (senoDueThetaDue - senoDueThetaUno) * indiceDueThetaFrazionario;\n\r\n/*\ncosenoDuePhiUno = peek(FCOSENO, indiceDuePhiIntero, index=\"samples\");\r\ncosenoDuePhiDue = peek(FCOSENO, indiceDuePhiInteroDue, index=\"samples\");\r\ncosenoDuePhiInterpolato = cosenoDuePhiUno + (cosenoDuePhiDue - cosenoDuePhiUno) * indiceDuePhiFrazionario;\r\n*/\r\n\r\nsenoDuePhiUno = peek(FSENO, indiceDuePhiIntero, index=\"samples\");\r\nsenoDuePhiDue = peek(FSENO, indiceDuePhiInteroDue, index=\"samples\");\r\nsenoDuePhiInterpolato = senoDuePhiUno + (senoDuePhiDue - senoDuePhiUno) * indiceDuePhiFrazionario;\r\n\r\n\r\n\r\ncosenoTreThetaUno = peek(FCOSENO, indiceTreThetaIntero, index=\"samples\");\r\ncosenoTreThetaTre = peek(FCOSENO, indiceTreThetaInteroDue, index=\"samples\");\r\ncosenoTreThetaInterpolato = cosenoTreThetaUno + (cosenoTreThetaTre - cosenoTreThetaUno) * indiceTreThetaFrazionario;\r\n\r\nsenoTreThetaUno = peek(FSENO, indiceTreThetaIntero, index=\"samples\");\r\nsenoTreThetaTre = peek(FSENO, indiceTreThetaInteroDue, index=\"samples\");\r\nsenoTreThetaInterpolato = senoTreThetaUno + (senoTreThetaTre - senoTreThetaUno) * indiceTreThetaFrazionario;\n\r\n/*\ncosenoTrePhiUno = peek(FCOSENO, indiceTrePhiIntero, index=\"samples\");\r\ncosenoTrePhiTre = peek(FCOSENO, indiceTrePhiInteroDue, index=\"samples\");\r\ncosenoTrePhiInterpolato = cosenoTrePhiUno + (cosenoTrePhiTre - cosenoTrePhiUno) * indiceTrePhiFrazionario;\r\n\r\nsenoTrePhiUno = peek(FSENO, indiceTrePhiIntero, index=\"samples\");\r\nsenoTrePhiTre = peek(FSENO, indiceTrePhiInteroDue, index=\"samples\");\r\nsenoTrePhiInterpolato = senoTrePhiUno + (senoTrePhiTre - senoTrePhiUno) * indiceTrePhiFrazionario;\r\n*/\r\n\r\n\r\nW = segnaleIngresso * 0.70710678118654752440084436210485;\r\n\r\nX = segnaleIngresso * cosenoThetaInterpolato * cosenoPhiInterpolato;\r\n// segnale * cos(theta) * cos(phi)\r\nY = segnaleIngresso * senoThetaInterpolato * cosenoPhiInterpolato;\r\n// segnale * sin(theta) * cos(phi)\r\nZ = segnaleIngresso * senoPhiInterpolato;\r\n// segnale * sin(phi)\r\n\r\nR = segnaleIngresso * 1.5 * senoPhiInterpolato * senoPhiInterpolato - segnaleIngresso * 0.5;\r\n// segnale * (1 / 2) * (3 * sin(phi) - 1)\r\nS = segnaleIngresso * cosenoThetaInterpolato * senoDuePhiInterpolato;\r\n// segnale * cos(theta) * sin(2 * phi)\r\nT = segnaleIngresso * senoThetaInterpolato * senoDuePhiInterpolato;\r\n// segnale * sin(theta) * sin(2 * phi)\r\nU = segnaleIngresso * cosenoDueThetaInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * cos(2 * theta) * pow(cos(phi), 2)\r\nV = segnaleIngresso * senoDueThetaInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * sin(2 * theta) * pow(cos(phi), 2)\r\n\r\nK = segnaleIngresso * 2.5 * senoPhiInterpolato * senoPhiInterpolato * senoPhiInterpolato - segnaleIngresso * 1.5 * senoPhiInterpolato;\r\n// segnale * (1 / 2) * sin(phi) * (5 * pow(sin(phi), 2) - 3)\r\nL = segnaleIngresso * 3.630921887069453329855561312296 * cosenoThetaInterpolato * senoPhiInterpolato * senoPhiInterpolato * cosenoPhiInterpolato - segnaleIngresso * 0.7261843774138906659711122624592 * cosenoThetaInterpolato * cosenoPhiInterpolato;\r\n// segnale * sqrt(21 * 45 / 8 * 224) * cos(theta) * (5 * pow(sin(phi), 2) - 1) * cos(phi)\r\nM = segnaleIngresso * 3.630921887069453329855561312296 * senoThetaInterpolato * senoPhiInterpolato * senoPhiInterpolato * cosenoPhiInterpolato - segnaleIngresso * 0.7261843774138906659711122624592 * senoThetaInterpolato * cosenoPhiInterpolato;\r\n// segnale * sqrt(21 * 45 / 8 * 224) * sin(theta) * (5 * pow(sin(phi), 2) - 1) * cos(phi)\r\nN = segnaleIngresso * 2.5980762113533159402911695122588 * cosenoDueThetaInterpolato * senoPhiInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * (3 / 2) * sqrt(105 / 35) * cos(2 * theta) * sin(phi) * pow(cos(phi), 2)\r\nO = segnaleIngresso * 2.5980762113533159402911695122588 * senoDueThetaInterpolato * senoPhiInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * (3 / 2) * sqrt(105 / 35) * sin(2 * theta) * sin(phi) * pow(cos(phi), 2)\r\nP = segnaleIngresso * cosenoTreThetaInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * cos(3 * theta) * pow(cos(phi), 3)\r\nQ = segnaleIngresso * senoTreThetaInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato * cosenoPhiInterpolato;\r\n// segnale * sin(3 * theta) * pow(cos(phi), 3)\r\n\r\n\r\n\r\nout1 = W;\r\nout2 = X;\r\nout3 = Y;\r\nout4 = Z;\r\nout5 = R;\r\nout6 = S;\r\nout7 = T;\r\nout8 = U;\r\nout9 = V;\r\nout10 = K;\r\nout11 = L;\r\nout12 = M;\r\nout13 = N;\r\nout14 = O;\r\nout15 = P;\r\nout16 = Q;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "codebox",
+					"numinlets" : 3,
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 45.0, 60.0, 855.0, 525.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 600.0, 117.0, 22.0 ],
+					"style" : "",
+					"text" : "out 1 @comment W"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 11 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 12 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 14 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 15 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+ ],
+		"autosave" : 0
+	}
+
+}
